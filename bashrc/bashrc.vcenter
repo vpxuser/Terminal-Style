@@ -16,6 +16,10 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+# 个人新增配置
+alias ll='ls -l'
+alias la='ls -al'
+
 # Provides prompt for non-login shells, specifically shells started
 # in the X environment. [Review the LFS archive thread titled
 # PS1 Environment Variable for a great case study behind this script
@@ -36,5 +40,3 @@ if test -n "$SSH_CONNECTION" -a -z "$PROFILEREAD"; then
      . /etc/profile > /dev/null 2>&1
 fi
 # End /etc/bash.bashrc
-
-
